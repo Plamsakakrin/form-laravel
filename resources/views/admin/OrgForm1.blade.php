@@ -1025,9 +1025,14 @@
                             <div class="row">
 
                                 <label for="" class="form-label"> 3.8 </label>
-                                <!-- <div class="col-md-3">
-                                    <input type="text" class="form-control" name="" value="องค์การใหญ่"> <br>
-                                </div> -->
+                                <div class="col-md-3">
+                                        <label for="" class="form-label"> องค์การย่อย: </label>
+                                        <input type="text" class="form-control" name="" value=""><br>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="" class="form-label"> องค์การใหญ่: </label>
+                                        <input type="text" class="form-control" name="" value=""> <br>
+                                    </div>
                                 <div class="col-md-12">
                                     <label for="" class="form-label">เหตุผลและความจำเป็นที่: </label>
                                     <!-- <label for="" class="form-label" style="color: blue;" >องค์การย่อย </label> -->
