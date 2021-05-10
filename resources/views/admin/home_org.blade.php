@@ -151,7 +151,7 @@
                         <td>องค์การสหกิจคริสเตียน <br> แห่งประเทศไทย <br>(THE EVANGELICAL FELLOWSHIP OF THAILAND)</td>
                         <td>องค์การสหกิจคริสเตียน <br> แห่งประเทศไทย <br>(THE EVANGELICAL FELLOWSHIP OF THAILAND)</td>
                         <td>3/5/2564</td>
-                        <td><i class="fa fa-file" aria-hidden="true" style="font-size: 20px;" title="ร่าง"></i></td>
+                           <td><i class="fa fa-history" aria-hidden="true" style="font-size: 20px;" title="อยู่ระหว่างยื่นเอกสาร"></i></td>
                         <td>คุณทดสอบ2</td>
                         <td>3/5/2564 10.00</td>
                         <td>
