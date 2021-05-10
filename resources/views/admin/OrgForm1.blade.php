@@ -477,8 +477,8 @@
                                         2. การศึกษา
                                     </label>
                                 </div>
-                                <form action="">
                                     <div class="card-body">
+                                <form action="">
                                         <div class="row">
                                             <div class="col-md-1">
                                                 <label style="color:red">*</label>
@@ -875,7 +875,7 @@
                                     <br>
                                 </div>
                                 <div class="col-md-12">
-                                    <label for="" class="form-label">3.6.2 </label>
+                                    <label for="" class="form-label">3.6.1 </label>
                                     <br>
                                     <label for="" class="form-label">ขอเข้ามาปฏิบัติงาน: </label>
                                 </div>
@@ -891,7 +891,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <label for="" class="form-label">จังหวัด: </label>
-                                    <input type="text" class="form-control" name=""  disabled="" value="กรุงเทพมหานคร">
+                                    <input type="text" class="form-control" name="" disabled="" value="กรุงเทพมหานคร">
                                     <br>
                                 </div>
                             </div>
@@ -934,7 +934,8 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        </form><hr>
+                        </form>
+                        <hr>
                         <form action="">
                             <div class="row">
                                 <div class="col-md-12">
@@ -954,7 +955,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <label for="" class="form-label">จังหวัด: </label>
-                                    <input type="text" class="form-control" name=""  disabled="" value="กรุงเทพมหานคร">
+                                    <input type="text" class="form-control" name="" disabled="" value="กรุงเทพมหานคร">
                                     <br>
                                 </div>
                             </div>
@@ -1040,38 +1041,113 @@
                                 <button type="submit" name="submit" class="btn" style="background: #20a2aa; color:white;">
                                     <i class="fas fa-plus"></i>เพิ่ม</button>
                             </center><br>
-                            <table class="table table" width="100%">
-                                <thead>
-                                    <tr style="background: #DB681D; color:white;">
-                                        <th>ลำดับ</th>
-                                        <th>เหตุผล</th>
-                                        <th>Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <!-- <tr id="orangi"> -->
-                                    <tr style="background-color: #e9fbf2; color:black;">
-                                        <td>1</td>
-                                        <td></td>
-                                        <td>
-                                            <a href="#"><i style="color: black;" class="fa fa-pencil-square-o"></i></a>
-                                            <a href="#"><i style="color: red;" class="fa fa-trash"></i></a>
-                                        </td>
-
-                                    </tr>
-                                    <tr style="background-color: #e9fbf2; color:black;">
-                                        <td>2</td>
-                                        <td></td>
-                                        <td>
-                                            <a href="#"><i style="color: black;" class="fa fa-pencil-square-o"></i></a>
-                                            <a href="#"><i style="color: red;" class="fa fa-trash"></i></a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
                         </form>
-                        <hr>
+                        <table class="table table" width="100%">
+                            <thead>
+                                <tr style="background: #DB681D; color:white;">
+                                    <th>ลำดับ</th>
+                                    <th>เหตุผล</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- <tr id="orangi"> -->
+                                <tr style="background-color: #e9fbf2; color:black;">
+                                    <td>1</td>
+                                    <td></td>
+                                    <td>
+                                        <a href="#"><i style="color: black;" class="fa fa-pencil-square-o"></i></a>
+                                        <a href="#"><i style="color: red;" class="fa fa-trash"></i></a>
+                                    </td>
 
+                                </tr>
+                                <tr style="background-color: #e9fbf2; color:black;">
+                                    <td>2</td>
+                                    <td></td>
+                                    <td>
+                                        <a href="#"><i style="color: black;" class="fa fa-pencil-square-o"></i></a>
+                                        <a href="#"><i style="color: red;" class="fa fa-trash"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <hr>
+                       <div class="row">
+                        <div class="card-header">
+                            <label class="text-normal font-weight-normal pl-2">
+                                ผู้ติดตาม
+                            </label>
+                        </div>
+                       </div>
+                        <div class="card-body">
+                           <form action="" >
+                           <div class="row">
+                                <div class="col-md-3">
+                                    <label for="" class="form-label">ความสัมพันธ์: </label>
+                                    <select id="" name="" class="form-select">
+                                        <option value="" selected>== กรุณาเลือก ==</option>
+                                        <option value=""> สามี </option>
+                                        <option value=""> ภรรยา </option>
+                                        <option value=""> บุตร </option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="" class="form-label">ชื่อ: </label>
+                                    <input type="text" class="form-control" name="" value="">
+                                    <br>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="" class="form-label">นามสกุล: </label>
+                                    <input type="text" class="form-control" name="" value="">
+                                    <br>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="" class="form-label">อายุ (ปี): </label>
+                                    <input type="text" class="form-control" name="" value="">
+                                    <br>
+                                </div>
+                            </div>
+                            <center>
+                                <button type="submit" name="submit" class="btn" style="background: #20a2aa; color:white;">
+                                    <i class="fas fa-plus"></i>เพิ่ม</button>
+                            </center><br>
+                           </form>
+
+
+                        <table class="table table" width="100%">
+                            <thead>
+                                <tr style="background: #DB681D; color:white;">
+                                    <th>ลำดับ</th>
+                                    <th>ความสัมพันธ์</th>
+                                    <th>ชื่อ</th>
+                                    <th>นามสกุล</th>
+                                    <th>อายุ(ปี)</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- <tr id="orangi"> -->
+                                <tr style="background-color: #e9fbf2; color:black;">
+                                    <td>1</td>
+                                    <td>บุตร</td>
+                                    <td>ทดสอบ</td>
+                                    <td>ทดสอบ</td>
+                                    <td>5</td>
+                                    <td>
+                                        <a href="#"><i style="color: black;" class="fa fa-pencil-square-o"></i></a>
+                                        <a href="#"><i style="color: red;" class="fa fa-trash"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+
+
+
+
+
+
+                        <hr>
                         <div class="row">
                             <div class="col-md-8">
                                 <div class="col-md-12">
