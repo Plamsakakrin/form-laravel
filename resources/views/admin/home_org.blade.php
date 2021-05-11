@@ -32,8 +32,9 @@
 <body>
     <div class="container">
         <div class="row mb-2">
-            <div class="col-6">
-                <label class="text-header"><i style="color:#DB681D" class="fa fa-newspaper-o pr-1" aria-hidden="true"></i> แบบ อก.1</label>
+            <div class="col-7">
+                <label class="text-header"><i style="color:#DB681D" class="fa fa-newspaper-o pr-1" aria-hidden="true"></i> ระบบจัดการหนังสือรับรองคนต่างด้าวขอรับการตรวจลงตราประเภทคนอยู่ชั่วคราว เพื่อพำนักอยู่ในราชอาณาจักรเกินกว่า 90 วัน(รายใหม่):<label for="" class="form-label" style="color: blue;">แบบอก. 1-4 </label>
+</label>
             </div>
         </div>
         <div style="text-align: end;">
@@ -146,7 +147,7 @@
                     <!-- <tr id="orangi"> -->
                     <tr style="color:black; ">
                         <td>1</td>
-                        <td>64-05-0005</td>
+                        <td style="color: blue;"> <u>64-05-0005</u></td>
                         <td>คุณสมใจ ทดสอบ1</td>
                         <td>องค์การสหกิจคริสเตียน <br> แห่งประเทศไทย <br>(THE EVANGELICAL FELLOWSHIP OF THAILAND)</td>
                         <td>องค์การสหกิจคริสเตียน <br> แห่งประเทศไทย <br>(THE EVANGELICAL FELLOWSHIP OF THAILAND)</td>
@@ -163,7 +164,7 @@
                     </tr>
                     <tr style="background-color: #fffacd; color:black;">
                         <td>2</td>
-                        <td>64-05-0004</td>
+                        <td style="color: blue;"><u>64-05-0004</u></td>
                         <td>คุณสมชาย ทดสอบ2</td>
                         <td>มูลนิธิคริสตจักรเซเว่นธ์เดย์<br>แอ๊ดเวนตีสแห่งประเทศไทย</td>
                         <td>คริสตจักรเอกมัย</td>
@@ -180,7 +181,7 @@
                     </tr>
                     <tr style="background-color: #e9fbf2; color:black;">
                         <td>3</td>
-                        <td>64-05-003</td>
+                        <td style="color: blue;"> <u>64-05-003</u></td>
                         <td>คุณสมนึก ทดสอบ3</td>
                         <td>มูลนิธิคริสตจักรเซเว่นธ์เดย์ <br>แอ๊ดเวนตีสแห่งประเทศไทย</td>
                         <td>คริสตจักรโรงพยาบาลมิชชั่น</td>
@@ -195,7 +196,7 @@
                     </tr>
                     <tr style="background-color: #e9fbf2; color:black;">
                         <td>4</td>
-                        <td>64-05-0002</td>
+                        <td style="color: blue;"><u>64-05-0002</u></td>
                         <td>คุณสมนึก &nbsp; &nbsp; ทดสอบ4</td>
                         <td>มูลนิธิคริสตจักรเซเว่นธ์เดย์ <br> แอ๊ดเวนตีสแห่งประเทศไทย</td>
                         <td>คริสตจักรจีน เพิ่มสิน</td>
@@ -210,7 +211,7 @@
                     </tr>
                     <tr style="background-color: #e9fbf2; color:black;">
                         <td>5</td>
-                        <td>64-05-0001</td>
+                        <td style="color: blue;"><u>64-05-0001</u></td>
                         <td>คุณสมนึก ทดสอบ4</td>
                         <td>มูลนิธิคริสตจักรเซเว่นธ์เดย์ <br>แอ๊ดเวนตีสแห่งประเทศไทย</td>
                         <td>คริสตจักรจีน เพิ่มสิน</td>
