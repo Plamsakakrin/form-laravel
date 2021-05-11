@@ -97,7 +97,7 @@
                                     <option value=""> อยู่ระหว่างยื่นเอกสาร </option>
                                     <option value=""> อยู่ระหว่างการตรวจสอบเอกสาร </option>
                                     <option value=""> เอกสารไม่ครบถ้วนหรือไม่ถูกต้อง </option>
-                                    <option value=""> รายการคำขอได้รับการอนุมัติ </option>
+                                    <option value=""> อยู่ระหว่างการพิจารณา </option>
                                     <option value=""> รายการคำขอได้รับการอนุมัติ </option>
                                     <option value=""> ยกเลิก </option>
                                 </select><br>
@@ -144,19 +144,19 @@
                 </thead>
                 <tbody>
                     <!-- <tr id="orangi"> -->
-                    <tr style="color:black;">
+                    <tr style="color:black; ">
                         <td>1</td>
                         <td>64-05-0005</td>
-                        <td>คุณสมใจ  ทดสอบ1</td>
+                        <td>คุณสมใจ ทดสอบ1</td>
                         <td>องค์การสหกิจคริสเตียน <br> แห่งประเทศไทย <br>(THE EVANGELICAL FELLOWSHIP OF THAILAND)</td>
                         <td>องค์การสหกิจคริสเตียน <br> แห่งประเทศไทย <br>(THE EVANGELICAL FELLOWSHIP OF THAILAND)</td>
                         <td>3/5/2564</td>
-                           <td><i class="fa fa-history" aria-hidden="true" style="font-size: 20px;" title="อยู่ระหว่างยื่นเอกสาร"></i></td>
+                        <td><i class="fa fa-history" aria-hidden="true" style="font-size: 20px;" title="อยู่ระหว่างยื่นเอกสาร"></i></td>
                         <td>คุณทดสอบ2</td>
                         <td>3/5/2564 10.00</td>
                         <td>
 
-                            <a href="#"><i style="color: black;" class="fa fa-pencil-square-o" title="แก้ไขข้อมูล"></i></a>
+                            <a href="{{route('edit')}}"><i style="color: black;" class="fa fa-pencil-square-o" title="แก้ไขข้อมูล"></i></a>
                             <a href="#"><i style="color: red;" class="fa fa-times-circle" title="ยกเลิก"></i></a>
                         </td>
 
