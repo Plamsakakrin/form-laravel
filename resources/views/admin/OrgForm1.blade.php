@@ -1178,7 +1178,15 @@
                                         <div class="card-header" style="background-color:#DB681D; color:white;"><i class="fa fa-file-image-o" aria-hidden="true"></i> อัพโหลดรูปภาพ</div>
                                         <div class="card-body"><br>
                                             <div class="row">
-                                                <input type="file" class="form-control" name="picIcon" id="picIcon">
+                                                <!-- <input type="file" class="form-control" name="picIcon" id="picIcon"> -->
+                                                <input type="file" id="select_image" class="btn" hidden="">
+                                                <div class="d-grid gap-2 d-md-block">
+                                                    <label for="select_image" class=" btn text-normal" style="background: #20a2aa; color:white;">
+                                                        <i class="fa fa-upload pr-1" aria-hidden="true"></i>
+                                                        เลือกภาพ
+                                                    </label>
+
+                                                </div>
                                                 <div class="image-preview" id="imagePreview">
                                                     <img src="" alt="Image Preview" class="image-preview__image">
                                                     <img class="image-preview__default-text" src="https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-8-avatar-2754583_120515.png" style="height:200px;min-width:auto;max-width:100%"></img>
@@ -1340,11 +1348,11 @@
         });
     </script>
     <script>
-        const picIcon = document.getElementById("picIcon");
+        const select_image = document.getElementById("select_image");
         const previewContainer = document.getElementById("imagePreview");
         const previewImage = previewContainer.querySelector(".image-preview__image");
         const previewDefaultText = previewContainer.querySelector(".image-preview__default-text");
-        picIcon.addEventListener("change", function() {
+        select_image.addEventListener("change", function() {
             const file = this.files[0];
             if (file) {
                 const reader = new FileReader()
