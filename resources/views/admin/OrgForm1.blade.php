@@ -252,7 +252,7 @@
                                     <div class="row">
                                         <label class="form-label"> 1.5 </label>
 
-                                        <div class="col-md-5">
+                                        <div class="col-md-7">
                                             <label style="color:red">*</label>
                                             <label for="" class="form-label">ตำแหน่งหน้าที่ทางศาสนา ในองค์การศาสนาที่ท่านสังกัดอยู่ คือ: </label>
                                             <input type="text" class="form-control" name="" value="">
@@ -1087,7 +1087,7 @@
                                                 <option value=""> สามี </option>
                                                 <option value=""> ภรรยา </option>
                                                 <option value=""> บุตร </option>
-                                            </select>
+                                            </select><br>
                                         </div>
                                         <div class="col-md-3">
                                             <label for="" class="form-label">ชื่อ: </label>
