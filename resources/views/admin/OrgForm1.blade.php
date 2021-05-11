@@ -1174,7 +1174,7 @@
                                     </div><br>
                                 </div>
                                 <div class="col-md-5">
-                                    <div class="card" style="margin:20px;">
+                                    <div class="card" style="margin:18px;">
                                         <div class="card-header" style="background-color:#DB681D; color:white;"><i class="fa fa-file-image-o" aria-hidden="true"></i> อัพโหลดรูปภาพ</div>
                                         <div class="card-body"><br>
                                             <div class="row">
