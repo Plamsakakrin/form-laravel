@@ -65,16 +65,181 @@
 
                         <div class="card-header p-1">
                             <label class="text-normal font-weight-normal pl-2">
-                                1. ชีวประวัติ
+                                แบบ อก.3
                             </label>
                         </div>
                         <div class="card-body">
                             <div class="row">
-
+                                <label class="form-label"> 1. </label>
+                                <div class="col-md-3">
+                                    <!-- <label style="color:red">*</label> -->
+                                    <label for="" class="form-label">คำนำหน้า: </label>
+                                    <select name="" class="form-select">
+                                        <option value="" selected>== กรุณาเลือก ==</option>
+                                        <option value=""> นาง </option>
+                                        <option value=""> นางสาว </option>
+                                        <option value=""> นาย </option>
+                                    </select><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <!-- <label style="color:red">*</label> -->
+                                    <label for="" class="form-label">ชื่อ: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <!-- <label style="color:red">*</label> -->
+                                    <label for="" class="form-label">นามสกุล: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <!-- <label style="color:red">*</label> -->
+                                    <label for="" class="form-label">อายุ: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <!-- <label style="color:red">*</label> -->
+                                    <label for="" class="form-label">สังกัดองค์การย่อยชื่อ: </label>
+                                    <input type="text" class="form-control" name="" value="">
+                                </div>
+                                <div class="col-md-3">
+                                    <!-- <label style="color:red">*</label> -->
+                                    <label for="" class="form-label">สังกัดองค์การใหญ่ชื่อ: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
                             </div>
                             <hr>
-
+                            <div class="row">
+                                <label class="form-label"> 2. </label>
+                                <div class="col-md-4">
+                                    <!-- <label style="color:red">*</label> -->
+                                    <label for="" class="form-label">สถานที่พักบ้านเลขที่: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- <label style="color:red">*</label> -->
+                                    <label for="" class="form-label">ถนน: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- <label style="color:red">*</label> -->
+                                    <label for="" class="form-label">แขวง/ตำบล: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <!-- <label style="color:red">*</label> -->
+                                    <label for="" class="form-label">เขต/อำเภอ: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                                <div class="col-md-4">
+                                    <!-- <label style="color:red">*</label> -->
+                                    <label for="" class="form-label">จังหวัด: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <label class="form-label"> 3. </label>
+                                <div class="col-md-12">
+                                    <label for="" class="form-label">ได้เดินทางเข้ามาในประเทศครั้งสุดท้ายถึงวันที่: </label>
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="" class="form-label">วันที่: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="" class="form-label">เดือน: </label><br>
+                                    <input type="text" class="form-control" name="" value="">
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="" class="form-label">พ.ศ. </label>
+                                    <input type="text" class="form-control" name="" value="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label for="" class="form-label">ได้รับอนุญาตให้ต่ออายุหนังสือเดินทางครั้งสุดท้ายวันที่: </label>
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="" class="form-label">วันที่: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="" class="form-label">เดือน: </label><br>
+                                    <input type="text" class="form-control" name="" value="">
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="" class="form-label">พ.ศ. </label>
+                                    <input type="text" class="form-control" name="" value="">
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="" class="form-label">ถึงวันที่: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="" class="form-label">เดือน: </label><br>
+                                    <input type="text" class="form-control" name="" value="">
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="" class="form-label">พ.ศ. </label>
+                                    <input type="text" class="form-control" name="" value="">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <label class="form-label"> 4. </label>
+                                <div class="col-md-4">
+                                    <label for="" class="form-label">ได้เข้าปฏิบัติงานในเขตพื้นที่: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="" class="form-label">ตำบล: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="" class="form-label">อำเภอ: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="" class="form-label">จังหวัด: </label>
+                                    <input type="text" class="form-control" name="" value="กรุงเทพ" disabled=""><br>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <label for="" class="form-label">5. </label>
+                                <div class="col-md-3">
+                                    <label for="" class="form-label">ในรอบ 4 เดือนที่: </label>
+                                    <input type="text" class="form-control" name="" value=""><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="" class="form-label">ตั้งแต่เดือน: </label>
+                                    <input type="text" class="form-control" name="" value="พฤษภาคม พ.ศ.2563"><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="" class="form-label">ถึงเดือน: </label>
+                                    <input type="text" class="form-control" name="" value="สิงหาคม พ.ศ.2563"><br>
+                                </div>
+                                <div class="col-md-12">
+                                            <label for="" class="form-label">นับตั้งแต่ได้เข้ามาปฏิบัติงานในประเทศไทยได้ปฏิบัติงานไปแล้ว ดังนี้: </label>
+                                            <textarea class="form-control" placeholder="" style="height: 130px"></textarea>
+                                            <br>
+                                        </div>
+                            </div>
                         </div>
+                        <hr>
+                        <center>
+                            <button type="submit" name="submit" class="btn" style="background: #20a2aa; color:white;"><i class="fa fa-floppy-o"></i> บันทึก</button>
+                            <button type="submit" name="submit" class="btn" style="background: #20a2aa; color:white;"><i class="fa fa-check-circle"></i> ยืนยัน</button>
+                            <button type="submit" name="submit" class="btn" style="background: #20a2aa; color:white;"><i class="fa fa-print"></i> พิมพ์</button>
+                            <a href="{{route('homeorg')}}" class="btn btn-secondary text-normal">
+                                <label class="txtv3 p-0 m-0"><i class="fa fa-times" aria-hidden="true" style="color: white;"></i> ปิด</label>
+                            </a>
+                        </center>
+                        <br>
                     </div>
                 </div>
             </div>
